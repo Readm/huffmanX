@@ -24,7 +24,7 @@ If you have an iterable of symbols, the collections.Counter is a handy way to ta
 {'m': '111', 'a': '01', 'n': '10', ' ': '000', 't': '0010', 'h': '1101', 'e': '11000', 's': '11001', 'd': '00110', 'b': '00111'}
 ```
 
-The default weight combination function is `F(x,y)=x+y', i.e. the traditional Huffman tree.
+The default weight combination function is `F(x,y)=x+y`, i.e. the traditional Huffman tree.
 If you want to change the weight combination function, add a argument called `weight_fun`.
 
 For example:
